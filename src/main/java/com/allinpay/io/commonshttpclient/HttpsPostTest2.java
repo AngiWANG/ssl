@@ -8,7 +8,7 @@ import org.apache.commons.httpclient.methods.PostMethod;
 import org.apache.commons.httpclient.protocol.Protocol;
 import org.apache.commons.httpclient.protocol.ProtocolSocketFactory;
 
-public class HttpsTest2 {
+public class HttpsPostTest2 {
 
 	/**
 	 * @param args
@@ -19,6 +19,7 @@ public class HttpsTest2 {
 
 		HttpClient client = new HttpClient();
 		PostMethod httpget = new PostMethod("https://103.22.255.193/payment/main");
+
 		try {
 			System.out.println(client.executeMethod(httpget));
 		} catch (HttpException e) {

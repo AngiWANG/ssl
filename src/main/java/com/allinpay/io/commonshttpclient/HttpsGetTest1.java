@@ -10,7 +10,7 @@ import org.apache.commons.httpclient.URIException;
 import org.apache.commons.httpclient.methods.GetMethod;
 import org.apache.commons.httpclient.protocol.Protocol;
 
-public class HttpsTest1 {
+public class HttpsGetTest1 {
 
 	/**
 	 * @param args
