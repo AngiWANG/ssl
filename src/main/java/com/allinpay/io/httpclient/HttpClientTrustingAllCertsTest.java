@@ -31,7 +31,7 @@ public class HttpClientTrustingAllCertsTest {
         DefaultHttpClient httpclient = new DefaultHttpClient();
 
         SSLContext sc = SSLContext.getInstance("SSL");
-        sc.init(null, getTrustingManager(), new java.security.SecureRandom());
+        sc.init(null, getTrustingManager(), null);
 
         SSLSocketFactory sSLSocketFactory = new SSLSocketFactory(sc,SSLSocketFactory.ALLOW_ALL_HOSTNAME_VERIFIER);
         Scheme scheme = new Scheme("https", 443, sSLSocketFactory);
