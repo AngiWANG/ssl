@@ -14,7 +14,7 @@ import java.io.*;
  */
 public class SimpleSSLServer extends Thread
 {
-  public static final String KEY_PATH="D:\\Workspace\\STS\\ssl\\src\\main\\resources\\";
+  public static final String KEY_PATH="D:\\Workspace\\STS\\io\\ssl\\src\\main\\resources\\";
   public static final int DEFAULT_PORT=8087;
 
   private SSLServerSocketFactory serverSocketFactory;

@@ -10,5 +10,5 @@
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.allinpay.io.ssl.SimpleSSLServer"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="ssl"/>
 <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
-<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Djavax.net.ssl.keyStore=D:\Workspace\STS\ssl\src\main\resources\serverKeys -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStore=D:\Workspace\STS\ssl\src\main\resources\serverTrust -Djavax.net.ssl.trustStorePassword=password"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Djavax.net.ssl.keyStore=D:\Workspace\STS\io\ssl\src\main\resources\serverKeys -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStore=D:\Workspace\STS\io\ssl\src\main\resources\serverTrust -Djavax.net.ssl.trustStorePassword=password"/>
 </launchConfiguration>
